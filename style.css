@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Стилізація заголовка */
+#page-title {
+  font-size: 2rem;
+  text-align: center;
+  color: red;
+  margin-top: 20px;
+}
+
+/* Стилізація абзацу */
+.main-text {
+  font-size: 1.2rem;
+  color: red;
+  text-align: center;
+}
+
+/* Стилізація фото */
+.photo {
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+ 
+}
+body {
+  background-color: lightseagreen; 
+}
+
+.photo:hover {
+  transform: scale(1.05);
+}
